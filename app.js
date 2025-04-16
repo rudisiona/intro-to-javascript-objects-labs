@@ -150,11 +150,10 @@ game.party.splice(0, 1, pokemon[4])
 
 // console.log(game.party)
 game.partyCount = function() {
-    console.log(game.party.length)
+    return (game.party.length)
 }
  
 game.partyCount()
-
 
 
 // Exercise 15
